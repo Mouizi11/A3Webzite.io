@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+.main-header,
+.footer,
+.header,
+.navbar {
+    background-color: #004d7a;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.site-title,
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2.5rem;
+    color: #a7bbf7;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    background-color: #555;
+    border-radius: 5px;
+    color: #ffc107;
+}
+
+.about-me,
+.education,
+.project,
+form {
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+}
+
+.education-entry,
+.project {
+    margin-bottom: 20px;
+}
+
+.education-image,
+iframe {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    border: none;
+    height: 315px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form textarea,
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background: #5D3F6A;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #473C53;
+}
+
+.light-theme {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.dark-theme {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#thankYouMessage {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Mobile-specific styles */
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    /* Tablet-specific styles */
+}
+
+@media only screen and (min-width: 900px) {
+    /* Desktop-specific styles */
+}
